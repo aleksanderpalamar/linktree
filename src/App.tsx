@@ -37,18 +37,27 @@ function App() {
           lineHeight="1.2"
           display="block"
           mt="4"
-        >
-          Ching_13
+          padding={4}          
+        >          
           <Text
             as="h2"
             fontSize="sm"
             color="gray.300"
             display="flex"
+            flexDirection="column"
             alignItems="center"
+            justifyContent="center"
             gap="2"
           >
+            <Text as="span" fontWeight="bold" fontSize="3xl" color="gray.100">Ching_13</Text>
+            <Box display="flex" alignItems="center" gap="2">
             <Envelope size="24" />
             vinicius.ching@hotmail.com
+            </Box>
+          </Text>
+          <Text as="p" fontSize="sm" mt="4" lineHeight="3">
+            Olá, meu nome é Vinicius mais conhecido como Ching, gosto de fazer 
+            stream jogando games e faço emotes para Twitch.
           </Text>
         </Text>
         <Box as="section" mt="20">
