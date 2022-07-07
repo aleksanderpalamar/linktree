@@ -26,7 +26,7 @@ function App() {
           h="calc(3rem + 32px)"
           borderRadius={8}
           border="4px solid #202024"
-          outline="3px solid #FFCF00"
+          outline="3px solid #0033FF"
           objectFit="cover"
           alt="Profile image"
         />
